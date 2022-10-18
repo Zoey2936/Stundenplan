@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    
+    <script src="https://cdn.jsdelivr.net/npm/darkreader"></script>
+    <script>DarkReader.auto();</script>
+
+    <script defer data-domain="a24dmng.de" src="https://plausible.scdmx.de/js/plausible.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/marked"></script>
+    <script>
+      function readMarkdown(div, url) {
+    fetch(url)
+        .then(response => {
+
+            return response.text()
+        })
+        .then(text => {
+            document.getElementById(div).innerHTML =
+                marked.parse(text);
+        })
+    }
+    </script>
+
+    <title>Stundenplan - A24DMNG</title>
+    <meta name="application-name" content="Stundenplan - A24DMNG">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.webp">
+    <link rel="icon" type="image/webp" sizes="32x32" href="/favicon-32x32.webp">
+    <link rel="icon" type="image/webp" sizes="192x192" href="/android-chrome-192x192.webp">
+    <link rel="icon" type="image/webp" sizes="16x16" href="/favicon-16x16.webp">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1f89ef">
+    <meta name="msapplication-TileColor" content="#1F89EF">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.webp">
+    <meta name="theme-color" content="#1f89ef">
+
+    <style>
+    #text {
+    margin: 2.5vw 5vw;
+    }
+    </style>
+</head>
+<body>
+
+<div id="text"></div>
+<script>readMarkdown("text", "/files/Stundenplan.md")</script>
+
+<noscript>
+    <style type="text/css">
+        .pagecontainer {display:none;}
+        body {
+          background-color: black;
+          color: white;
+        }
+        .noscriptmsg {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+    </style>
+    <div class="noscriptmsg">
+        Please enable Javascript. You need it to visit this site!
+    </div>
+</noscript>
+
+</body>
+</html>
