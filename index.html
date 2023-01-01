@@ -6,17 +6,19 @@
     <script src="/darkreader.js"></script>
     <script>DarkReader.auto();</script>
     
-    <script src="/marked.js"></script>
     <script>
-      function readMarkdown(div, url) {
-    fetch(url)
-        .then(response => {
-
-            return response.text()
+    function readHTML(div, url) {
+      fetch(url)
+        .then((response) => {
+          return response.text()
         })
-        .then(text => {
-            document.getElementById(div).innerHTML =
-                marked.parse(text);
+        .then((text) => {
+          document.getElementById(div).innerHTML = text
+        })
+        .then(() => {
+          if (div == "footer") {
+            elementLoad()
+          }
         })
     }
     </script>
@@ -41,8 +43,9 @@
 </head>
 <body>
 
-<div id="text"></div>
-<script>readMarkdown("text", "/files/Stundenplan.md")</script>
+    <script>
+      readHTML("navbar", "/files/Stundenplan.html")
+    </script>
 
 <noscript>
     <style type="text/css">
