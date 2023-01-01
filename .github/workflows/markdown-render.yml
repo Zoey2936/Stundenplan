@@ -20,3 +20,11 @@ jobs:
         run: | 
          rm -rf files/Stundenplan.html
          echo -e "<meta charset="utf-8">\n$(curl -X POST https://api.github.com/markdown/raw --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --header "Content-Type: text/plain" -d "$(cat files/Stundenplan.md)")" | tee files/Stundenplan.html
+     
+      - name: push changes
+        run: |
+          git config user.name "GitHub"
+          git config user.email "noreply@github.com"
+          git add -A
+          git diff-index --quiet HEAD || git commit -sm "markdown-render"
+          git push
