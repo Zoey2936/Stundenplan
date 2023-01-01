@@ -28,26 +28,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  marked-update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: update marked
-        id: update
-        run: curl -L https://cdn.jsdelivr.net/npm/marked -o marked.js
-        
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v4
-        with:
-          signoff: true
-          delete-branch: true
-          commit-message: update marked
-          branch: update-marked
-          title: update marked
-          body: update marked
-
   darkreader-update:
     runs-on: ubuntu-latest
     steps:
