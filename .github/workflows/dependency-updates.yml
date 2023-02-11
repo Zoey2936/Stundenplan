@@ -1,5 +1,4 @@
 name: dependency-updates
-
 on:
   branch_protection_rule:
   check_run:
@@ -21,23 +20,19 @@ on:
   repository_dispatch:
   status:
   watch:
-  
   push:
   schedule:
-    - cron:  "0 */6 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
-
 jobs:
   darkreader-update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
       - name: update darkreader
         id: update
         run: curl -L https://cdn.jsdelivr.net/npm/darkreader -o darkreader.js
-        
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:

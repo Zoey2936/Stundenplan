@@ -1,12 +1,10 @@
 name: markdown-render
-
 on:
   push:
     paths:
       - .github/workflows/markdown-render.yml
       - files/Stundenplan.md
   workflow_dispatch:
-
 jobs:
   repo-update:
     runs-on: ubuntu-latest
@@ -14,13 +12,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-         ref: ${{ github.ref_name }}
-        
+          ref: ${{ github.ref_name }}
       - name: update repos
-        run: | 
-         rm -rf files/Stundenplan.html
-         echo -e "<meta charset="utf-8">\n$(curl -X POST https://api.github.com/markdown/raw --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --header "Content-Type: text/plain" -d "$(cat files/Stundenplan.md)")" | tee files/Stundenplan.html
-     
+        run: |
+          rm -rf files/Stundenplan.html
+          echo -e "<meta charset="utf-8">\n$(curl -X POST https://api.github.com/markdown/raw --header "authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" --header "Content-Type: text/plain" -d "$(cat files/Stundenplan.md)")" | tee files/Stundenplan.html
       - name: push changes
         run: |
           git config user.name "GitHub"
