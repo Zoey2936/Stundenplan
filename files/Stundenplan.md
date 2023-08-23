@@ -22,7 +22,7 @@ Stunde|Uhrzeit/Tag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Hitze-Zeiten|Hitz
 [Aktuelle Kalender-Wochen-Nummer](https://aktuelle-kalenderwoche.org)
 -->
 [Schulcloud](https://www.schulportal-thueringen.de/cas/login?service=https%3A%2F%2Fschulcloud-thueringen.de%2Ftsp-login)
-[Vertretungsplan BN/PW: 146202/schueler](https://dsbmobile.de)
+[Vertretungsplan 146202](https://dsbmobile.de)
 [Orthografietrainer](https://orthografietrainer.net/schueler/index.php)
 
 <!---
