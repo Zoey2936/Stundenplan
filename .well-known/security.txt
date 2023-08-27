@@ -5,16 +5,17 @@ Contact: mailto:zoey@z0ey.de
 Expires: 2023-12-31T22:59:00.000Z
 Encryption: https://github.com/Zoey2936.gpg
 Preferred-Languages: de, en
-Canonical: https://z0ey.de/.well-known/security.txt
 Canonical: https://a24dmng.de/.well-known/security.txt
 Canonical: https://physio-koenigsee.de/.well-known/security.txt
 Canonical: https://glaswerk-mellenbach.de/.well-known/security.txt
 Canonical: https://dmng.a24dmng.de/.well-known/security.txt
 Canonical: https://dmz.a24dmng.de/.well-known/security.txt
+Canonical: https://3dd.a24dmng.de/.well-known/security.txt
+Canonical: https://table.a24dmng.de/.well-known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTLgVQUaSqtse3eaSkCo5GetPZzKAUCY7CI1AAKCRACo5GetPZz
-KN2OAQClS9Mzj72QA92/FunVYs8qdqVFY3FUCRzqDjx5RFf+4wEAmcV3Do33PJJP
-ZEi0cbZ7orsRZytkcoMzF/x+rPn2GAw=
-=NY9o
+iHUEARYKAB0WIQTLgVQUaSqtse3eaSkCo5GetPZzKAUCZOt+OwAKCRACo5GetPZz
+KH9zAP9DqbG2Xd2QfSB6F6KvKTIe9Ex9yQ/dnJOUpdx3zpNyHAD+NMoMM/y2X0ff
+9gTgSMhyLfUJS6sb8Z7xCdnuUEmxLAI=
+=eaWe
 -----END PGP SIGNATURE-----
