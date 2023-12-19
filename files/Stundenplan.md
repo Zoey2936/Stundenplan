@@ -12,11 +12,11 @@ Stunde|Uhrzeit/Tag|Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Hitze-Zeiten|Hitz
 **Pause**|11:30 Uhr - 11:55 Uhr||||||10:45 Uhr - 10:50 Uhr|5min
 **5.**|11:55 Uhr - 12:40 Uhr|**MA TH 3.10**|[de SP 4.07](https://orthografietrainer.net/schueler/index.php)|[la SP 4.07](https://navigium.de/latein-woerterbuch.html)||**MA TH 3.10**|10:50 Uhr - 11:25 Uhr|5.
 **5min**|12:40 Uhr - 12:45 Uhr||||||11:25 Uhr - 11:45 Uhr|Pause
-**6.**|12:45 Uhr - 13:30 Uhr|[la SP 4.07](https://navigium.de/latein-woerterbuch.html)|et MOR 4.12|[la SP 4.07](https://navigium.de/latein-woerterbuch.html)||**MA TH 3.10**|11:45 Uhr - 12:20 Uhr|6.
+**6.**|12:45 Uhr - 13:30 Uhr|[la SP 4.07](https://navigium.de/latein-woerterbuch.html)|et SCH 4.12|[la SP 4.07](https://navigium.de/latein-woerterbuch.html)||**MA TH 3.10**|11:45 Uhr - 12:20 Uhr|6.
 **Pause**|13:30 Uhr - 13:45 Uhr||||||12:20 Uhr - 12:25 Uhr|5min
-**7.**|13:45 Uhr - 14:30 Uhr|sp WÜN|if PA 1.02||et MOR 4.12||12:25 Uhr - 12:55 Uhr|7.
+**7.**|13:45 Uhr - 14:30 Uhr|sp SC|if PA 1.02||et SCH 4.12||12:25 Uhr - 12:55 Uhr|7.
 **5min**|14:30 Uhr - 14:35 Uhr||||||12:55 Uhr - 13:00 Uhr|5min
-**8.**|14:35 Uhr - 15:20 Uhr|sp WÜN|if PA 1.02||if PA 1.02||13:00 Uhr - 13:30 Uhr|8.
+**8.**|14:35 Uhr - 15:20 Uhr|sp SC|if PA 1.02||if PA 1.02||13:00 Uhr - 13:30 Uhr|8.
 
 <!---
 [Aktuelle Kalender-Wochen-Nummer](https://aktuelle-kalenderwoche.org)
