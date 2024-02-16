@@ -2,20 +2,17 @@
 Hash: SHA512
 
 Contact: mailto:zoey@z0ey.de
-Expires: 2023-12-31T22:59:00.000Z
+Expires: 2024-12-31T23:59:00.000Z
 Encryption: https://github.com/Zoey2936.gpg
 Preferred-Languages: de, en
 Canonical: https://a24dmng.de/.well-known/security.txt
 Canonical: https://physio-koenigsee.de/.well-known/security.txt
 Canonical: https://glaswerk-mellenbach.de/.well-known/security.txt
-Canonical: https://dmng.a24dmng.de/.well-known/security.txt
-Canonical: https://dmz.a24dmng.de/.well-known/security.txt
-Canonical: https://3dd.a24dmng.de/.well-known/security.txt
-Canonical: https://table.a24dmng.de/.well-known/security.txt
+Canonical: https://reservierung.a24dmng.de/.well-known/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQTLgVQUaSqtse3eaSkCo5GetPZzKAUCZOt+OwAKCRACo5GetPZz
-KH9zAP9DqbG2Xd2QfSB6F6KvKTIe9Ex9yQ/dnJOUpdx3zpNyHAD+NMoMM/y2X0ff
-9gTgSMhyLfUJS6sb8Z7xCdnuUEmxLAI=
-=eaWe
+iHUEARYKAB0WIQTLgVQUaSqtse3eaSkCo5GetPZzKAUCZc+FYgAKCRACo5GetPZz
+KLB4AQDIV32QAYuMhKPrsfyCkOzpQoYmeIk4DfesGxfg2nvX7AD+KxNziYu/TBJs
+2Gl2YiDUgBNl/39D8kKmQLSjlWjhLwM=
+=LLaY
 -----END PGP SIGNATURE-----
